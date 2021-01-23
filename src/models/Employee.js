@@ -7,19 +7,29 @@ class Employee extends Model {
             id: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
-                auto_increment: true,
+                autoIncrement: true,
                 primaryKey: true,
             },
             name: {
                 type: DataTypes.STRING,
                 allowNull: false,
             },
+            email: {
+                type: DataTypes.STRING,
+                allowNull: false,
+                unique: true,
+            },
             salary: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
-            }
+            },
+            admission_date: {
+                type: DataTypes.DATE,
+                allowNull: false,
+            },
         }, {
-            sequelize
+            sequelize,
+            underscored: true
         });
     }
 
