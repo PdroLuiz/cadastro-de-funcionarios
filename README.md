@@ -2,10 +2,10 @@
 Atividade Arquitetura de Software
 
 
-Rotas:
+Rotas:··
 
-POST    /employee/create
-GET     /employee/showall
-GET     /employee/:id/info
-PUT     /employee/:id/updatesalary
-DELETE  /employee/:id/delete
+POST    /employee/create··
+GET     /employee/showall··
+GET     /employee/:id/info··
+PUT     /employee/:id/updatesalary··
+DELETE  /employee/:id/delete··
